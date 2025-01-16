@@ -1,0 +1,19 @@
+@prefix ex: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:Alice rdf:type ex:Person ;
+         rdfs:label "Alice" ;
+         ex:age 30 .
+
+ex:Bob rdf:type ex:Person ;
+       rdfs:label "Bob" ;
+       ex:age 25 .
+
+ex:Charlie rdf:type ex:Person ;
+           rdfs:label "Charlie" ;
+           ex:age 35 .
+
+ex:Diana rdf:type ex:Person ;
+         rdfs:label "Diana" ;
+         ex:age 28 .
